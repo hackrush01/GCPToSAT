@@ -1,4 +1,4 @@
-# GCP_To_SAT
+# GCP To SAT
 A simple python code which reduces the Graph Colorablity Problem to Boolean Satisfiability Problem.
 
 # Requirements
@@ -13,6 +13,7 @@ A simple python code which reduces the Graph Colorablity Problem to Boolean Sati
 0. run using `python3 GCP_To_SAT.py <path-to-graph-file>`
 
 > Note: Complete installation instructions for MiniSat Solver are mentioned in it's respective repository but in short:
+
 0. cd to your git repo folder created above `cd ~/gitRepos`
 0. clone minisat `git clone https://github.com/niklasso/minisat.git`
 0. cd to minisat directory `cd minisat`
@@ -23,9 +24,10 @@ Just install the minisat solver in your preferred linux distro. After that just 
 
 # Input Format
 Make a graph.txt file in the same directory as the git repository or run the program as follows
-`python3 GCP_To_SAT.py <path-to-graph-file>'.
+`python3 GCP_To_SAT.py <path-to-graph-file>`.
 
 It's important to note that the graph text file must adhere to the standard input format i.e.
+
 0. First line contains exactly one number defining the number of vertices.
 0. After that each line should contain exactly one edge with space separated vertices.(e.g. 5 8, indicates an edge between 5th and 8th vertices)
 0. All edges are 1-indexed.

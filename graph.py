@@ -17,7 +17,7 @@ def getGraph():
 	
 	content = file.read().splitlines()
 	
-	numOfV = int(content[0][0])
+	numOfV = int(content[0])
 	numOfE = 0
 
 	graph = {(vtex + 1) : [] for vtex in range(numOfV)}
