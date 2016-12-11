@@ -1,4 +1,5 @@
 from graph import getGraph
+from display import plotGraph
 import sys, os, subprocess
 
 (graph, numOfE) = getGraph()
@@ -18,6 +19,7 @@ def main():
 	for vtex in graph:
 		print(vtex, "->", graph[vtex])
 	print("The chromatic index of the given graph is: {0:d}\n".format(k))
+	plotGraph(graph, k)
 		
 
 def unityClause(k):
