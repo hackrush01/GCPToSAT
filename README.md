@@ -9,7 +9,9 @@ A simple python code which reduces the Graph Colorablity Problem to Boolean Sati
 0. cd to your home directory `cd ~`
 0. create new folder for git repositories `mkdir gitRepos`
 0. cd to the newly created folder `cd gitRepos`
-0. clone this repo to you folder `git clone https://github.com/hackrush01/GCP_To_SAT.git`
+0. clone this repo to you folder `git clone https://github.com/hackrush01/GCPToSAT.git`
+0. cd to the repo `cd GCPToSAT`
+0. run `sudo pip3 install -r pip.txt`
 0. run using `python3 GCP_To_SAT.py <path-to-graph-file>`
 
 > Note: Complete installation instructions for MiniSat Solver are mentioned in it's respective repository but in short:
